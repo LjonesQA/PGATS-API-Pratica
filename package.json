@@ -1,0 +1,22 @@
+{
+  "name": "refazendo-aula",
+  "version": "1.0.0",
+  "description": "Esta API permite login, registro de usuários, consulta de usuários e transferência de valores. O objetivo é servir de base para estudos de testes e automação de APIs.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^5.1.0",
+    "swagger-ui-express": "^5.0.1"
+  },
+  "devDependencies": {
+    "mocha": "^11.7.1",
+    "sinon": "^21.0.0",
+    "supertest": "^7.1.4"
+  }
+}
